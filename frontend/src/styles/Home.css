@@ -1,0 +1,41 @@
+
+.tour-custom-container .ant-tour-content {
+    
+    max-width: 400px;
+    width: 100%;
+    margin: 10px auto; 
+}
+
+
+@media (max-width: 768px) {
+    .ant-tour-content {
+        max-width: 410px !important;
+        width: 100% !important;
+    }
+    .tour-custom-container {
+        max-width: 410px; 
+        width: 100%;
+        margin: 10px auto; 
+    }
+}
+
+.ant-tour-header{
+    background-color: #1f2937;
+    border: none;
+    
+
+}
+.ant-tour-inner{
+    background-color: #1f2937;
+    border: none;
+}
+.ant-tour-footer{
+    background-color: #1f2937;
+    border: none;
+}
+
+.ant-tour-description{
+    background-color: #1f2937;
+    border: none;
+
+}

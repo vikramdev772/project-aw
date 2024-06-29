@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://cdn-icons-png.flaticon.com/128/5831/5831855.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service</title>
+  </head>
+  <body class="">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      let aS = false;
+     setInterval(()=>{
+        if(!aS){
+       document.title = "Air-conditioner "
+     }
+     else{
+       document.title = "Washing machines "
+     }
+     aS=!aS
+   },1000)
+   </script>
+  </body>
+</html>
